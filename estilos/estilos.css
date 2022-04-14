@@ -1,0 +1,195 @@
+.contenedor{
+    display: grid;
+    grid-template-columns: 152px;
+    grid-template-rows: 100px;
+    grid-template-areas:
+    "logo navegacion navegacion navegacion"
+    "cuerpo cuerpo cuerpo cuerpo"
+    "volver volver volver volver"
+    "logofoot footer footer footer"
+    ;
+}
+
+.navegacion{
+    grid-area: navegacion;
+    background-color: green;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 30px;
+}
+.fotito{
+    grid-area: cuerpo;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+.fotito__foto{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border: 3px;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    padding: 5px;
+
+}
+.ubi{
+
+    margin-left: 650px;
+    margin-top: 20px;
+
+}
+.texto{
+    font-family:'Times New Roman', Times, serif;
+}
+
+.volverarriba{
+    grid-area: volver;
+    background-color: white;
+}
+.volverarriba a{
+    text-decoration: none;
+    color: green;
+    border-style: dashed;
+    border-color: green;
+    border-radius: 2px;
+    padding: 2px;
+}
+
+.footer{
+    grid-area: footer;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.logofoot{
+    grid-area: logofoot;
+}
+
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    padding: 15px;   
+    padding-bottom: 50px; 
+}
+
+
+.menu :hover{
+    color: black;
+
+}
+
+.menu li{
+    list-style-type: none;
+    display: inline;
+}
+
+.menu ul{
+    margin: 65px 50px 100px 975px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;    
+}
+.formulario{
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    border-style: inset;
+    border-color: green green;
+    display: inline-block;
+}
+
+@media screen and (max-width: 1023px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns: 161px;
+        grid-template-rows: 100px 1094px 59px 93px ;
+        grid-area: 
+        "logo navegacion navegacion"
+        "cuerpo cuerpo cuerpo"
+        "volver volver volver"
+        "logofoot footer footer"
+        ;
+    }
+    .navegacion{
+        background-color: green;
+        padding: 0px;
+        padding-top: 40px;
+    }
+    nav{
+        padding-top: 1px;
+        margin: 0px;
+        text-align: center;
+        
+    }
+    .fotito{
+        background-color: white;
+    }
+    .menu ul{
+        display: inline;
+        margin: 1px;
+    }   
+    .logo{
+        width: 162px;
+    }
+    .logofoot img{
+        width: 162px;
+    }
+    }
+
+
+@media screen and (max-width:767px){
+    .contenedor{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto ;
+        grid-template-areas: 
+        "navegacion"
+        "cuerpo"
+        "footer"
+        ;
+        }
+
+    .navegacion{
+        background-color: green;
+        display: flex;
+        padding: 10px;
+    }
+    nav{
+        padding-top: 1px;
+        margin: 0px;
+        text-align: center;
+    }
+    .fotito{
+        background-color: white;
+    }
+    .logofoot{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .volverarriba{
+        display: none;
+    }
+    
+    .inicio{
+        display: none;
+    }
+    .fotito__foto{
+        width: 300px;
+        height: auto;
+    }
+    .footer{
+        text-align: center;
+    }
+}
