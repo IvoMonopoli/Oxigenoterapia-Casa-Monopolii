@@ -109,7 +109,29 @@
 @media screen and (max-width: 1023px) {
     .menu ul{
         padding-left: 0px;
+        padding-right: 0px;
         margin: 20px 0px 20px 0px;
+        padding-top: 28px
+}
+.row .logo{
+    padding: 0px;
+}
+.fotito__foto{
+    height: 400px;
+    width: auto;
+    padding-top: 30px;
+    border-radius: 5px;
+    border-top: 1px;
+    border-bottom: 10px;
+    border-left: 1px;
+    border-right: 0px;
+}
+.row .logofoot{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.footer :hover{
+    color: black;
 }
 }
 
