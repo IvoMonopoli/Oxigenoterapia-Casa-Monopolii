@@ -1,36 +1,27 @@
-.contenedor{
-    display: grid;
-    grid-template-columns: 152px;
-    grid-template-rows: 100px;
-    grid-template-areas:
-    "logo navegacion navegacion navegacion"
-    "cuerpo cuerpo cuerpo cuerpo"
-    "volver volver volver volver"
-    "logofoot footer footer footer"
-    ;
-}
 
 .navegacion{
-    grid-area: navegacion;
     background-color: green;
-    text-align: right;
-    padding-top: 10px;
-    padding-right: 30px;
 }
 .fotito{
-    grid-area: cuerpo;
-    background-color: rgb(255, 255, 255);
-    text-align: center;
+    background-color: rgb(160, 250, 183);
 }
 .fotito__foto{
     margin-top: 20px;
     margin-bottom: 10px;
-    border: 3px;
-    border-style: solid;
-    border-color: green;
-    border-radius: 10px;
-    padding: 5px;
+    padding: 5px 20px 5px 20px;
+    border-style: double;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-width: 7px;
+    border-radius: 3%;
+    border-color: white;
+    width: 750px  ;
 
+
+}
+.texto{
+    margin-top: 70px;
 }
 .ubi{
 
@@ -43,8 +34,8 @@
 }
 
 .volverarriba{
-    grid-area: volver;
-    background-color: white;
+    background-color: rgb(160, 250, 183);
+    color:rgb(160, 250, 183) ;
 }
 .volverarriba a{
     text-decoration: none;
@@ -52,7 +43,11 @@
     border-style: dashed;
     border-color: green;
     border-radius: 2px;
-    padding: 2px;
+    padding: 1px;
+    margin: 10px 0px 10px 25px;
+    font-size: 25px;
+
+
 }
 
 .footer{
@@ -68,18 +63,21 @@
     color: white;
 
 }
-
+.logo{
+    padding: 0px;
+}
 .logofoot{
-    grid-area: logofoot;
+    height: 100px;
+    padding: 0px;
 }
 
 .menu ul li a{
     color: white;
     text-decoration: none;
     font-family: Helvetica, sans-serif;
-    font-size: 18px;
-    padding: 15px;   
-    padding-bottom: 50px; 
+    font-size: 23px;
+    padding: 5px;
+    margin: 5px;
 }
 
 
@@ -94,10 +92,9 @@
 }
 
 .menu ul{
-    margin: 65px 50px 100px 975px;
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 50px;    
+    margin: 50px 0px 0px 85px;
+    padding-left: 380px;
+    padding-bottom: 50px; 
 }
 .formulario{
     text-align: center;
@@ -107,19 +104,9 @@
     border-color: green green;
     display: inline-block;
 }
-
+/*
 @media screen and (max-width: 1023px) {
-    .contenedor{
-        display: grid;
-        grid-template-columns: 161px;
-        grid-template-rows: 100px 1094px 59px 93px ;
-        grid-area: 
-        "logo navegacion navegacion"
-        "cuerpo cuerpo cuerpo"
-        "volver volver volver"
-        "logofoot footer footer"
-        ;
-    }
+
     .navegacion{
         background-color: green;
         padding: 0px;
@@ -138,26 +125,14 @@
         display: inline;
         margin: 1px;
     }   
-    .logo{
-        width: 162px;
-    }
     .logofoot img{
-        width: 162px;
+        height: 509px;
+        padding-right: 0px;
+        padding-left: 0px;
     }
-    }
-
-
+}
+/*
 @media screen and (max-width:767px){
-    .contenedor{
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto ;
-        grid-template-areas: 
-        "navegacion"
-        "cuerpo"
-        "footer"
-        ;
-        }
 
     .navegacion{
         background-color: green;
@@ -171,6 +146,10 @@
     }
     .fotito{
         background-color: white;
+        text-align: center;
+    }
+    .fotito__foto{
+        padding: 5px;
     }
     .logofoot{
         display: none;
@@ -184,10 +163,6 @@
     
     .inicio{
         display: none;
-    }
-    .fotito__foto{
-        width: 300px;
-        height: auto;
     }
     .footer{
         text-align: center;
