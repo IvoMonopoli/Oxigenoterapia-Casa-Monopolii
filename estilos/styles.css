@@ -1,0 +1,120 @@
+.navegacion {
+  background-color: green; }
+
+.fotito {
+  background-color: #a0fab7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 25px; }
+
+.fotito__foto {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px 20px 5px 20px;
+  border-style: double;
+  border-left: 1px;
+  border-bottom: 1px;
+  border-top: 1px;
+  border-width: 7px;
+  border-radius: 5%;
+  border-color: white;
+  width: 750px; }
+
+.texto {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 70px; }
+
+.volverarriba {
+  background-color: #a0fab7;
+  color: #a0fab7;
+  padding: 25px; }
+  .volverarriba a {
+    text-decoration: none;
+    color: green;
+    border-style: outset;
+    border-color: green;
+    border-radius: 2px;
+    padding: 1px;
+    margin: 10px 5px 10px 25px;
+    font-size: 25px; }
+
+.footer {
+  grid-area: footer;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; }
+  .footer a {
+    text-decoration: none;
+    color: white; }
+
+.logo {
+  padding: 0px; }
+
+.logofoot {
+  height: 100px;
+  padding: 0px; }
+
+.menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif;
+  font-size: 23px;
+  padding: 5px;
+  margin: 5px; }
+
+.menu:hover {
+  color: black; }
+
+.menu li {
+  list-style-type: none;
+  display: inline; }
+
+.menu ul {
+  margin: 50px 0px 0px 85px;
+  padding-left: 1400px;
+  padding-bottom: 10px; }
+
+.formulario {
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  border-style: inset;
+  border-color: green;
+  display: inline-block; }
+
+.row .volverarriba {
+  margin: 20px; }
+
+.ubi {
+  background-color: #a0fab7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px 20px 0px; }
+
+@media screen and (max-width: 1023px) {
+  .menu ul {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 20px 0px 20px 0px;
+    padding-top: 28px; } }
+
+@media screen and (max-width: 767px) {
+  .logofoot {
+    display: none; }
+  .menu ul {
+    text-align: center;
+    padding: 4px; }
+  .fotito__foto {
+    height: auto;
+    border-radius: 5%;
+    border-top: 1px;
+    border-bottom: 10px;
+    border-left: 1px;
+    border-right: 0px; }
+  .logo {
+    display: none; } }

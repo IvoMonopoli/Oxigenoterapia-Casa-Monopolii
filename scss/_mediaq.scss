@@ -1,0 +1,28 @@
+@media screen and (max-width: 1023px) {
+    .menu ul{
+        padding-left: 0px;
+        padding-right: 0px;
+        margin: 20px 0px 20px 0px;
+        padding-top: 28px
+}
+}
+@media screen and (max-width:767px){
+    .logofoot{
+        display: none;
+    }
+    .menu ul{
+        text-align: center;
+        padding: 4px;
+    }
+    .fotito__foto{
+        height: auto;
+        border-radius: 5%;
+        border-top: 1px;
+        border-bottom: 10px;
+        border-left: 1px;
+        border-right: 0px;
+    }
+    .logo{
+        display: none;
+    }
+    }
