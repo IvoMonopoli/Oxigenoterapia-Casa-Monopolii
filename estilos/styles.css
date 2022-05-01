@@ -1,4 +1,22 @@
-.navegacion {
+.redes--twitter {
+  background-color: #55acee; }
+
+.redes--facebook {
+  background-color: #3a5795; }
+
+.redes--whatsapp {
+  background-color: #00bb2d; }
+
+.redes--instagram {
+  background-color: #e776e7; }
+
+.mixin footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; }
+
+.navegacion, .footer {
   background-color: green; }
 
 .fotito {
@@ -41,8 +59,6 @@
     font-size: 25px; }
 
 .footer {
-  grid-area: footer;
-  background-color: green;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -95,6 +111,24 @@
   justify-content: center;
   align-items: center;
   padding: 50px 0px 20px 0px; }
+
+.redes--twitter {
+  background-color: #55acee; }
+
+.redes--facebook {
+  background-color: #3a5795; }
+
+.redes--whatsapp {
+  background-color: #00bb2d; }
+
+.redes--instagram {
+  background-color: #e776e7; }
+
+.mixin footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px; }
 
 @media screen and (max-width: 1023px) {
   .menu ul {

@@ -23,9 +23,9 @@
     width: 750px  ;
     }
 .texto{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 25px;
-    margin-top: 70px;
+font-family:'Times New Roman', Times, serif;
+font-size: 25px;
+margin-top: 70px;
 }
 .volverarriba{
     background-color: rgb(160, 250, 183);
@@ -43,8 +43,7 @@
     }
 }
 .footer{
-    grid-area: footer;
-    background-color: $colorprincipal;
+    @extend .navegacion;
     display: flex;
     align-items: center;
     justify-content: center;
