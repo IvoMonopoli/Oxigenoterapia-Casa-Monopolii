@@ -3,12 +3,13 @@
     background-color: $colorprincipal;
 }
 .fotito{
-    background-color: rgb(160, 250, 183);
+    background-color: rgb(216, 245, 223);
     display: flex;
     justify-content: center;
     align-items: center;
     padding-top: 25px;
 }
+
 .fotito__foto{
     margin-top: 20px;
     margin-bottom: 10px;
@@ -17,18 +18,35 @@
     border-left: 1px;
     border-bottom: 1px;
     border-top: 1px;
-    border-width: 7px;
+    border-width: 10px;
     border-radius: 5%;
-    border-color: white;
+    border-color: rgb(128, 250, 157);
     width: 750px  ;
     }
+.fotito2{
+    background-color: rgb(128, 250, 157);
+    @extend .fotito
+}
+.fotito__foto2{
+    border-color: rgb(216, 245, 223);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 20px 5px 20px;
+    border-style: double;
+    border-bottom: 1px;
+    border-top: 1px;
+    border-right: 1px;
+    border-width: 10px;
+    border-radius: 5%;
+    width: 750px  ;
+}
 .texto{
 font-family:'Times New Roman', Times, serif;
 font-size: 25px;
-margin-top: 70px;
+margin-top: 40px;
 }
 .volverarriba{
-    background-color: rgb(160, 250, 183);
+    background-color: rgb(128, 250, 157);
     color:rgb(160, 250, 183) ;
     padding: 25px;
     a{

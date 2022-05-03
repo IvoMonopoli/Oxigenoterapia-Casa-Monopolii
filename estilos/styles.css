@@ -19,8 +19,8 @@
 .navegacion, .footer {
   background-color: green; }
 
-.fotito {
-  background-color: #a0fab7;
+.fotito, .fotito2 {
+  background-color: #d8f5df;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,18 +34,34 @@
   border-left: 1px;
   border-bottom: 1px;
   border-top: 1px;
-  border-width: 7px;
+  border-width: 10px;
   border-radius: 5%;
-  border-color: white;
+  border-color: #80fa9d;
+  width: 750px; }
+
+.fotito2 {
+  background-color: #80fa9d; }
+
+.fotito__foto2 {
+  border-color: #d8f5df;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  padding: 5px 20px 5px 20px;
+  border-style: double;
+  border-bottom: 1px;
+  border-top: 1px;
+  border-right: 1px;
+  border-width: 10px;
+  border-radius: 5%;
   width: 750px; }
 
 .texto {
   font-family: 'Times New Roman', Times, serif;
   font-size: 25px;
-  margin-top: 70px; }
+  margin-top: 40px; }
 
 .volverarriba {
-  background-color: #a0fab7;
+  background-color: #80fa9d;
   color: #a0fab7;
   padding: 25px; }
   .volverarriba a {
@@ -151,4 +167,11 @@
     border-left: 1px;
     border-right: 0px; }
   .logo {
-    display: none; } }
+    display: none; }
+  .fotito__foto2 {
+    height: 200px;
+    border-radius: 5%;
+    border-top: 1px;
+    border-bottom: 10px;
+    border-left: 1px;
+    border-right: 0px; } }
