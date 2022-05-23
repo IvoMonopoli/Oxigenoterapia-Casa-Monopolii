@@ -3,7 +3,7 @@
     background-color: $colorprincipal;
 }
 .fotito{
-    background-color: rgb(216, 245, 223);
+    background-color: $colorsecundario;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,7 +12,7 @@
 
 .fotito__foto{
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 5px 20px 5px 20px;
     border-style: double;
     border-left: 1px;
@@ -20,25 +20,32 @@
     border-top: 1px;
     border-width: 10px;
     border-radius: 5%;
-    border-color: rgb(128, 250, 157);
+    border-color: $colorintermedio;
     width: 750px  ;
     }
 .fotito2{
-    background-color: rgb(128, 250, 157);
+    background-color: $colorintermedio;
     @extend .fotito
 }
 .fotito__foto2{
-    border-color: rgb(216, 245, 223);
     margin-top: 20px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 5px 20px 5px 20px;
     border-style: double;
+    border-left: 20px;
     border-bottom: 1px;
     border-top: 1px;
     border-right: 1px;
     border-width: 10px;
     border-radius: 5%;
+    border-color: white;
     width: 750px  ;
+}
+.fotito3{
+    @extend .fotito
+}
+.fotito__foto3{
+    @extend .fotito__foto
 }
 .texto{
 font-family:'Times New Roman', Times, serif;
@@ -46,8 +53,7 @@ font-size: 25px;
 margin-top: 40px;
 }
 .volverarriba{
-    background-color: rgb(128, 250, 157);
-    color:rgb(160, 250, 183) ;
+    background-color: white;
     padding: 25px;
     a{
         text-decoration: none;

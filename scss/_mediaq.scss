@@ -1,12 +1,30 @@
 @media screen and (max-width: 1023px) {
+    .fotito2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .menu ul{
         padding-left: 0px;
         padding-right: 0px;
         margin: 20px 0px 20px 0px;
         padding-top: 28px
 }
+    .fotito__foto{
+        border: 0px;
+    }
+    .logo{
+        height: auto;
+        width: 63px;
+    }
 }
+    .fotito__foto2{
+        border: none;
+    }
 @media screen and (max-width:767px){
+    .fotito2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .logofoot{
         display: none;
     }
@@ -33,4 +51,5 @@
         border-left: 1px;
         border-right: 0px;
     }
+
     }
